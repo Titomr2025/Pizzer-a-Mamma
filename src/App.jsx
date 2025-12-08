@@ -1,11 +1,20 @@
 import './App.css'
+import Navbar from './Componentes/Navbar'
+import Home from './Componentes/Home'
+import Footer from './Componentes/Footer'
+import Register from './Componentes/Register'
 import Login from './Componentes/Login'
 
 function App() {
+
   return (
-    <div style={{ padding: '2rem', backgroundColor: 'white', minHeight: '100vh' }}>
-       <Login />
-    </div>
+    <>
+       {/* <Navbar></Navbar> */}
+       {/* <Home></Home> */}
+       {/* <Register></Register> */}
+       <Login></Login>
+       {/* <Footer></Footer> */}
+    </>
   )
 }
 
