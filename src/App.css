@@ -210,6 +210,29 @@ footer p {
   padding-bottom: 3rem;
 }
 
+
+.btn-primary {
+  opacity: 1 !important;
+  display: block !important;
+  visibility: visible !important;
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3 !important;
+  border-color: #0056b3 !important;
+  opacity: 1 !important;
+}
+
+.d-grid .btn {
+  width: 100%;
+  opacity: 1 !important;
+  display: block !important;
+  visibility: visible !important;
+}
+
 @media (max-width: 768px) {
   header {
     height: 50vh !important;

@@ -89,9 +89,11 @@ const Register = () => {
                   />
                 </div>
 
-                <button type="submit" className="btn btn-primary w-100">
-                  Enviar
-                </button>
+                <div className="d-grid">
+                  <button type="submit" className="btn btn-primary">
+                    Enviar
+                  </button>
+                </div>
               </form>
             </div>
           </div>

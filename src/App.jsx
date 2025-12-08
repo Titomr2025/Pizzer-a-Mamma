@@ -8,13 +8,15 @@ import Login from './Componentes/Login'
 function App() {
 
   return (
-    <>
-       {/* <Navbar></Navbar> */}
-       {/* <Home></Home> */}
-       {/* <Register></Register> */}
-       <Login></Login>
-       {/* <Footer></Footer> */}
-    </>
+    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+       <Navbar />
+       <div style={{ flex: 1, padding: '2rem 0' }}>
+         {/* <Home /> */}
+         {/* <Register /> */}
+         <Login />
+       </div>
+       <Footer />
+    </div>
   )
 }
 
