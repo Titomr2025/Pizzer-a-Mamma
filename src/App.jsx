@@ -1,20 +1,13 @@
 import './App.css'
-import Navbar from './Componentes/Navbar'
-import Home from './Componentes/Home'
-import Footer from './Componentes/Footer'
-import Register from './Componentes/Register'
 import Login from './Componentes/Login'
 
 function App() {
 
   return (
-    <>
-       {/* <Navbar></Navbar> */}
-       {/* <Home></Home> */}
-       {/* <Register></Register> */}
+    <div style={{ padding: '2rem', backgroundColor: 'white', minHeight: '100vh' }}>
+       <h1 style={{ color: 'red', textAlign: 'center' }}>PRUEBA - Si ves esto, React funciona</h1>
        <Login></Login>
-       {/* <Footer></Footer> */}
-    </>
+    </div>
   )
 }
 
