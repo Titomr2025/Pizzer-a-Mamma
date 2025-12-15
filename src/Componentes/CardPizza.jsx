@@ -12,9 +12,11 @@ const CardPizza = (props) => {
         <h5 className="card-title">Pizza {props.name}</h5>
         <div className="card-text">
           <p className="text-muted mb-2">Ingredientes:</p>
-          <p className="mb-3">
-            🍕 {props.ingredients.join(', ')}
-          </p>
+          <ul className="mb-3">
+            {props.ingredients.map((ingredient, index) => (
+              <li key={index}>🍕 {ingredient}</li>
+            ))}
+          </ul>
         </div>
         <p className="card-text"><strong>Precio: ${formatPrice(props.price)}</strong></p>
         <div className="d-flex justify-content-between">

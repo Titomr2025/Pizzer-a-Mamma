@@ -1,21 +1,20 @@
 import './App.css'
-import Navbar from './Componentes/Navbar'
-import Home from './Componentes/Home'
+import Cart from './Componentes/Cart'
 import Footer from './Componentes/Footer'
-import Register from './Componentes/Register'
-import Login from './Componentes/Login'
+import Navbar from './Componentes/Navbar'
+// import Home from './Componentes/Home'
+// import Login from './Componentes/Login'
+// import Register from './Componentes/Register'
 
-function App() {
-
+const App = () => {
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-       <Navbar />
-       <div style={{ flex: 1, padding: '2rem 0' }}>
-         {/* <Home /> */}
-         {/* <Register /> */}
-         <Login />
-       </div>
-       <Footer />
+    <div>
+      <Navbar />
+      {/* <Home /> */}
+      {/* <Register /> */}
+      {/* <Login /> */}
+      <Cart />
+      <Footer />
     </div>
   )
 }
