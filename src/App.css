@@ -17,6 +17,16 @@ body {
   width: 100%;
 }
 
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
 header {
   position: absolute;
   top: 50px;
